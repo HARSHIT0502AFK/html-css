@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Indian Movies and Places</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #d9534f;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Movie list styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 400px;
+        }
+        ul li {
+            padding: 12px;
+            border: 2px solid #d9534f;
+            margin-bottom: 10px;
+            background-color: #fff5f5;
+            color: #333;
+            border-radius: 6px;
+            font-size: 18px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+        ul li:hover {
+            transform: scale(1.05);
+        }
+        /* Highlight for favorite movie */
+        .favorite-movie {
+            font-weight: bold;
+            color: white;
+            background-color: #d9534f;
+            border: 2px solid #d43f3a;
+        }
+
+        /* City list styling */
+        ol {
+            padding: 0;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        /* Styling for each city */
+        ol li {
+            padding: 12px;
+            border: 2px solid #5bc0de;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            background-color: #e5f6f9;
+            font-size: 18px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+        ol li:hover {
+            transform: scale(1.05);
+        }
+        .city-1 {
+            color: #0275d8;
+            font-weight: bold;
+        }
+        .city-2 {
+            color: #5cb85c;
+            font-style: italic;
+        }
+        .city-3 {
+            color: #f0ad4e;
+            text-transform: uppercase;
+        }
+        .city-4 {
+            color: #d9534f;
+            text-decoration: underline;
+        }
+        .city-5 {
+            color: #5bc0de;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Favorite Indian Movies</h1>
+    <ul>
+        <li>3 Idiots</li>
+        <li>Dangal</li>
+        <li class="favorite-movie">Sholay</li> <!-- Favorite movie with unique styling -->
+        <li>Lagaan</li>
+        <li>Swades</li>
+    </ul>
+
+    <h2>Top Places to Visit in India</h2>
+    <ol>
+        <li class="city-1">Jaipur</li>
+        <li class="city-2">KASHI</li>
+        <li class="city-3">LUCKNOW</li>
+        <li class="city-4">PRAYGRAJ</li>
+        <li class="city-5">MATHURA</li>
+    </ol>
+
+</body>
+</html>
